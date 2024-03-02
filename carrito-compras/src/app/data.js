@@ -15,7 +15,7 @@ export const data = [
     },
     {
         id: 3,
-        title: 'Gorra Beisbolera Crowyl',
+        title: 'Gorra Beisbolera Crowyl Azul Marino',
         price: 22,
         urlImage: 'https://tottoelsalvador.vteximg.com.br/arquivos/ids/204608-292-292/AC60IND675-2220M-Z6O_1.jpg?v=638031936101930000',
         quantity: 1
