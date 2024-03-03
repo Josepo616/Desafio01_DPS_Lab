@@ -59,10 +59,10 @@ export const Headers = ({
                 <h3>Total:</h3>
                 <span className='total-pagar'>${total}</span>
               </div>
-              <button className='btn-clear-all' onClick={onCleanCart}>
+              <button className='btn-clear-all' onClick={() => { onCleanCart(); setActive(!active)}} >
                 Vaciar Carrito
               </button>
-              <button className='btn-confirm-purchase' onClick={confirmPurchase}>
+              <button className='btn-confirm-purchase' onClick={() => { confirmPurchase(); setActive(!active)}}>
                 Confirmar Compra
               </button> {/* Botón para confirmar la compra */}
             </>
